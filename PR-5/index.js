@@ -169,9 +169,6 @@
 // expected output: A NEW JAVA BOOK
 
 
-
-
-
 // let X = "oxoxoxox";
 // let output = X.split('').map((char, i) => i % 2 === 1 ? char.toUpperCase() : char).join('');
 // console.log(output);
