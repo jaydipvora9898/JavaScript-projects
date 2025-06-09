@@ -1,15 +1,16 @@
 // 1. Write a Javascript program to print a greeting Message using with argument no return type function without argument at that time Print message Good Morning
 
 // function greet(name) {
-//   console.log("Good Morning 🥂🥂");
-// }
-
-// greet();
-
-
-// Expected Output:
-
-// Good Morning 🥂🥂
+//     if (name) {
+//       console.log("Good Morning 🥂🥂",name);
+//     } else {
+//       console.log("Good Morning 🥂🥂");
+//     }
+//   }
+  
+// //   Expected Output
+//   greet(); 
+//   greet("Jaydip"); 
 
 
 

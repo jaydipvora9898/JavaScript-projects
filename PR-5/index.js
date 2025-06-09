@@ -1,5 +1,6 @@
 // 1. Write a simple javascript program to print expected output using the following array
 
+
 // let myColor = ["Red", "Green", "White", "Black"];
 
 // console.log(myColor.join(","));
