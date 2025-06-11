@@ -92,7 +92,7 @@
 // 100
 // 101
 
-
+    
 // 5. Write a javascript program to remove nagative values using the filter array function.
 
 // let Num =[-23,-20,-17,-12,-5,0,1,5,12,19,20]
