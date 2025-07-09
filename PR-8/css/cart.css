@@ -9,14 +9,14 @@
 }
 
 .backCart {
-    background-color: rgb(126, 23, 23)!important;
+    background-color: rgb(68, 63, 215)!important;
     color: #fff!important;
     transition-duration: 0.5s;
 }
 
 .backCart:hover {
     background-color: transparent!important;
-    border: 3px solid rgb(126, 23, 23)!important;
+    border: 3px solid rgb(68, 63, 215)!important;
     color: black!important;
 }
 
