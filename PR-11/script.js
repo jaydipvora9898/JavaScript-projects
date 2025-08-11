@@ -38,6 +38,13 @@
 //     console.log(rowStr.trim());
 // }
 
+// Original Matrix:
+// 1 2 3
+// 4 5 6
+// Transposed Matrix:
+// 1 4
+// 2 5
+// 3 6
 
 // 2.
 
@@ -76,7 +83,10 @@
 // console.log("Sorted Array (Descending):");
 // console.log(sorted.join(" "));
 
-
+// Original Array:
+// 64 25 12 22 11
+// Sorted Array (Descending):
+// 64 25 22 12 11
 
 // 3. Array Ascending order sorting using Merge sort
 
@@ -137,3 +147,7 @@
 // console.log("Sorted Array (Ascending):");
 // console.log(sortedArray.join(" "));
 
+// Original Array:
+// 38 27 43 3 9 82 10
+// Sorted Array (Ascending):
+// 3 9 10 27 38 43 82
