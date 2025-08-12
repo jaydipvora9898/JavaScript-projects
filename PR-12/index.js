@@ -148,7 +148,7 @@
 //             fast = fast.next.next;
 //         }
 
-//         if (fast) { // Odd length
+//         if (fast) { 
 //             slow = slow.next;
 //         }
 
@@ -169,5 +169,5 @@
 // pll.insert(1);  
 // console.log("Is Palindrome:", pll.isPalindrome()); 
 
-// Output: true
+// Output: false
 
