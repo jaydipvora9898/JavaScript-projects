@@ -110,3 +110,64 @@
 // output =>Before reversing: 10 -> 20 -> 30 -> 40 -> 50 -> 60
 //          After reversing: 60 -> 50 -> 40 -> 30 -> 20 -> 10
 
+
+
+// 3. WAP for check linklist is palindrome or not.
+
+// class PalindromeNode {
+//     constructor(data) {
+//         this.data = data;
+//         this.next = null;
+//     }
+// }
+// class PalindromeLinkedList {
+//     constructor() {
+//         this.head = null;
+//     }
+//     insert(data) {
+//         const newNode = new PalindromeNode(data);
+//         if (!this.head) {
+//             this.head = newNode;
+//         } else {
+//             let current = this.head;
+//             while (current.next) {
+//                 current = current.next;
+//             }
+//             current.next = newNode;
+//         }
+//     }
+
+//     isPalindrome() {
+//         let slow = this.head;
+//         let fast = this.head;
+//         let stack = [];
+
+//         while (fast && fast.next) {
+//             stack.push(slow.data);
+//             slow = slow.next;
+//             fast = fast.next.next;
+//         }
+
+//         if (fast) { // Odd length
+//             slow = slow.next;
+//         }
+
+//         while (slow) {
+//             if (stack.pop() !== slow.data) {
+//                 return false;
+//             }
+//             slow = slow.next;
+//         }
+//         return true;
+//     }
+// }
+// const pll = new PalindromeLinkedList();
+// pll.insert(1);
+// pll.insert(2);  
+// pll.insert(3);
+// pll.insert(5);
+// pll.insert(1);  
+// console.log("Is Palindrome:", pll.isPalindrome()); 
+
+// Output: true
+
